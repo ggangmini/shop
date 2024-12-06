@@ -1,0 +1,256 @@
+h3 {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    position: absolute;
+    left: 45%;
+    word-spacing: 10px;
+    line-height: 1.5;
+    font-size: 30px;
+    margin-top: 0;
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+accent {
+    color: red;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Shadows+Into+Light&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+#op1 {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+#op2 {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+#op3 {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+#op4 {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+p a {
+    color: black !important;
+    font-weight: lighter;
+    font-size: 15px;
+    position: absolute;
+    text-decoration: none;
+    left: 43%;
+    ;
+}
+
+.container1 {
+    height: 40px;
+    background-color: beige;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    width: 100%;
+    height: 130px;
+    background-color: black;
+    list-style: none;
+    font-size: large;
+}
+
+nav {
+
+    display: flex;
+    gap: 10px 10px;
+    text-align: center;
+    font-weight: lighter;
+    font-weight: bold;
+    font-size: medium;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+.text1 {
+
+
+    position: absolute;
+    left: 40%;
+    word-spacing: 10%;
+    line-height: 150px;
+    font-size: 15px;
+}
+
+.text2 {
+
+    top: 50px;
+    right: 0;
+    text-align: center;
+    margin-right: 25px;
+    font-size: 15px;
+    position: absolute;
+    color: black;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-color: black;
+    border: none;
+    border-radius: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+
+#wrap {
+    position: relative;
+    width: 100%;
+    margin: 0 auto 0;
+    display: flex;
+
+
+}
+
+#container {
+    width: 100%;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+
+
+}
+
+#box1 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#box2 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#box3 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#box4 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.box{
+    width: 100px;
+
+}
+.box img{
+    width: 100%;
+    height: 100%;
+}
+.price {
+    color: lightgray;
+    text-decoration: line-through;
+    font-size: 10px;
+}
+
+.Itemname {
+    font-size: 15px;
+    color: black;
+}
+
+.sale {
+    font-size: 15px;
+}
+
+/* .Aitem {
+    object-fit: fill;
+} */
+
+    #footer{
+        border-top: 1px solid #e4e4e4;
+        background-color:#f8f9fa;
+        padding:1rem 0;
+        margin:1rem 0;
+        height: 300px;
+    }
+    
+.footer-message{
+    font-weight: bold;
+    font-size:0.9rem;
+    color:#545e6f;
+    margin-bottom:0.3rem;
+    margin:0 0 0 0.8rem;
+}
+.footer-contact{
+    font-size:0.9rem;
+    color:#545e6f;
+    margin:0.8rem;
+}
+.footer-main{
+    font-size:0.9rem;
+    color:#545e6f;
+    margin:0.6rem;
+    left: 50%;
+}
